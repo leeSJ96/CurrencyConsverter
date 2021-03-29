@@ -1,5 +1,5 @@
 package com.example.currencyconsverterprep.data.models
-
+//데이터
 data class Rates(
     val AUD: Double,
     val BGN: Double,

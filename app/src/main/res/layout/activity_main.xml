@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#7C7A7A"
+    android:id="@+id/main"
     tools:context=".MainActivity">
 
 
@@ -82,6 +83,7 @@
             android:layout_marginEnd="16dp"
             android:entries="@array/currency_codes"
             android:padding="15dp"
+
             android:background="@drawable/stroke"
             app:layout_constraintEnd_toStartOf="@+id/spToCurrency"
             app:layout_constraintTop_toBottomOf="@+id/tvFrom"/>
@@ -101,8 +103,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:backgroundTint="#1A2322"
-            android:text="Convert"
+            android:backgroundTint="#BDBDBD"
+            android:text="환율보기"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spToCurrency" />
 
@@ -112,6 +114,8 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:textColor="@color/white"
+            android:background="@drawable/stroke"
+            android:padding="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/btnConvert"
             app:layout_constraintEnd_toStartOf="@+id/btnConvert"
             app:layout_constraintStart_toStartOf="parent"
